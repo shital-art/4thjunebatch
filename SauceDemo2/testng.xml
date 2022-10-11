@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+  <parameter name="BrowserName" value="chrome"></parameter>
+    <classes>
+      <class name="com.Saucdemo.Testclass.TestClassLogoutFunctonality"/>
+      <class name="com.Saucdemo.Testclass.TestClassAplyTheFilter"/>
+      <class name="com.Saucdemo.Testclass.TestClassAddtoCartProduct"/>
+      <class name="com.Saucdemo.Testclass.Testclass4Proceedtocheckout"/>
+      <class name="com.Saucdemo.Testclass.TestClassmultipleElementaddtocart"/>
+      <class name="com.Saucdemo.Testclass.TestClassLoginfunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
